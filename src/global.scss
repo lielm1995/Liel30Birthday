@@ -14,6 +14,11 @@ $breakpoint-mobile: 481px;
   --white: #ffffff;
 }
 
+// Reset default body margin
+body {
+  margin: 0;
+}
+
 // Global font settings
 * {
   font-family: 'Calibri', sans-serif;
