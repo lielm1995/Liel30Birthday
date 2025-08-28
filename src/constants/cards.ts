@@ -13,8 +13,8 @@ import type { SocialLink } from '../types/social';
 
 export interface ICard {
   id: string;
-  image?: string;
-  socials?: SocialLink[];
+  image: string;
+  socials: SocialLink[];
 }
 
 export const cards: ICard[] = [

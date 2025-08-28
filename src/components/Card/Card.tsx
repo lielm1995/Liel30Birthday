@@ -31,11 +31,9 @@ function Card({ card: { id, image, socials = [] } }: CardProps) {
       {image && <img src={image} alt={title} className={styles.cardImage} />}
       <div className={styles.cardContent}>
         <h2 className={styles.cardTitle}>{title}</h2>
-        {description && (
-          <div className={styles.cardDescriptionWrapper}>
-            <p className={styles.cardDescription}>{description}</p>
-          </div>
-        )}
+        <div className={styles.cardDescriptionWrapper}>
+          <p className={styles.cardDescription}>{description}</p>
+        </div>
         <SocialIcons socials={socials} />
       </div>
     </div>
