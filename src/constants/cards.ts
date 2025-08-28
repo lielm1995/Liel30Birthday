@@ -6,7 +6,7 @@ import liron from '../assets/Liron.jpg';
 import me from '../assets/Liel.jpg';
 import orDoga from '../assets/OrDogaLogo.jpg';
 import koiCocktails from '../assets/KoiCocktails.jpg';
-import jahnunGivaa from '../assets/JahnunGivaa.jpg';
+import jahnunGivaa from '../assets/jahnunGivaa.jpg';
 import cake from '../assets/cake.jpg';
 import towels from '../assets/towels.png';
 import type { SocialLink } from '../types/social';
