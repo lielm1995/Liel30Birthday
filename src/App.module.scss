@@ -15,8 +15,13 @@
     bottom: 0;
     background-image: url('./assets/background.png');
     background-size: cover;
+    background-position: 50% center;
     filter: none;
     z-index: -1;
+
+    @media (min-width: $breakpoint-mobile) {
+      background-position: unset;
+    }
   }
 }
 
