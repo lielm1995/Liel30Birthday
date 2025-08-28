@@ -1,0 +1,31 @@
+// Import fonts
+@use './assets/fonts/fonts.scss';
+
+// SCSS Variables
+$breakpoint-mobile: 481px;
+
+// CSS Variables
+:root {
+  --desktop-image-size: 120px;
+  --breakpoint-mobile: #{$breakpoint-mobile};
+
+  --primary-color: #131415;
+  --secondary-color: #525661;
+  --white: #ffffff;
+}
+
+// Global font settings
+* {
+  font-family: 'Calibri', sans-serif;
+  font-weight: normal;
+}
+
+// Override react-tiny-fab styles and rotation
+.rtf.open .rtf--mb > * {
+  transform: none !important;
+}
+
+.rtf--mb__c {
+  margin: 0 !important;
+  padding: 0 !important;
+}

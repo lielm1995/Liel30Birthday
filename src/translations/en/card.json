@@ -1,0 +1,58 @@
+{
+  "title": "My 30th Birthday Party",
+  "cards": {
+    "album": {
+      "title": "Photo Album",
+      "description": "Add yours, browse others. Official pics coming soon!"
+    },
+    "narya-house": {
+      "title": "Narya House",
+      "description": "The beautiful venue where we celebrated together"
+    },
+    "dj-adi-dgani": {
+      "title": "DJ Adi Dgani",
+      "description": "The amazing DJ Adi Dgani who rocked our party"
+    },
+    "bartender-gili": {
+      "title": "Bartender Gili",
+      "description": "The legendary team who kept the drinks flowing"
+    },
+    "food-pizza": {
+      "title": "La Banchetto",
+      "description": "Our phenomenal master of food and pizza, Liron"
+    },
+    "photo-magnets": {
+      "title": "Video & More",
+      "description": "The brilliant Yarden, with unforgettable magnets"
+    },
+    "photo-still": {
+      "title": "Or Doga",
+      "description": "The iconic photographer who captured it all"
+    },
+    "barista": {
+      "title": "Coffee by Koi",
+      "description": "The barista behind every tasty coffee cup."
+    },
+    "after-party": {
+      "title": "Jahnun Hagiva",
+      "description": "The perfect after-party bite: tasty Jahnun"
+    },
+    "cake": {
+      "title": "sweetypiebymai",
+      "description": "Mai, the hands behind the beautiful cake"
+    },
+    "towels": {
+      "title": "Rikmatex",
+      "description": "The branded towels that wrapped our celebration"
+    }
+  },
+  "socials": {
+    "paybox": "Paybox",
+    "bit": "Bit",
+    "googlePhotos": "Google Photos",
+    "web": "Web",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "whatsapp": "Whatsapp"
+  }
+}
