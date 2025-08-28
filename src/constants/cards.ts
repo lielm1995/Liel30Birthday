@@ -46,7 +46,7 @@ export const cards: ICard[] = [
       },
       {
         type: 'whatsapp',
-        link: 'https://wa.me/972533541657',
+        link: 'https://wa.me/972534646460',
       },
     ],
   },
@@ -150,7 +150,7 @@ export const cards: ICard[] = [
       },
       {
         type: 'whatsapp',
-        link: 'https://wa.me/972509799709',
+        link: 'https://wa.me/972542025123',
       },
     ],
   },
@@ -165,10 +165,6 @@ export const cards: ICard[] = [
       {
         type: 'facebook',
         link: 'https://www.facebook.com/jahnunAgiva',
-      },
-      {
-        type: 'whatsapp',
-        link: 'https://wa.me/972505073294',
       },
     ],
   },
