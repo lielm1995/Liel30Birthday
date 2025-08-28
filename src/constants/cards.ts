@@ -141,20 +141,6 @@ export const cards: ICard[] = [
     ],
   },
   {
-    id: 'photo-magnets',
-    image: yarden,
-    socials: [
-      {
-        type: 'facebook',
-        link: 'https://www.facebook.com/MOR0509799709',
-      },
-      {
-        type: 'whatsapp',
-        link: 'https://wa.me/972542025123',
-      },
-    ],
-  },
-  {
     id: 'after-party',
     image: jahnunGivaa,
     socials: [
@@ -193,6 +179,20 @@ export const cards: ICard[] = [
       {
         type: 'whatsapp',
         link: 'https://wa.me/972528859795',
+      },
+    ],
+  },
+  {
+    id: 'photo-magnets',
+    image: yarden,
+    socials: [
+      {
+        type: 'facebook',
+        link: 'https://www.facebook.com/MOR0509799709',
+      },
+      {
+        type: 'whatsapp',
+        link: 'https://wa.me/972542025123',
       },
     ],
   },
