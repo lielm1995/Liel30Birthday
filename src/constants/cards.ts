@@ -1,6 +1,6 @@
 import adiDgani from '../assets/AdiDgani.jpg';
 import narya from '../assets/Narya.jpg';
-import yarden from '../assets/VideoAndMore.png';
+import yarden from '../assets/VideoAndMore.jpg';
 import gili from '../assets/Gili.jpg';
 import liron from '../assets/Liron.jpg';
 import me from '../assets/Liel.jpg';
@@ -133,6 +133,20 @@ export const cards: ICard[] = [
     ],
   },
   {
+    id: 'photo-magnets',
+    image: yarden,
+    socials: [
+      {
+        type: 'facebook',
+        link: 'https://www.facebook.com/MOR0509799709',
+      },
+      {
+        type: 'whatsapp',
+        link: 'https://wa.me/972542025123',
+      },
+    ],
+  },
+  {
     id: 'barista',
     image: koiCocktails,
     socials: [
@@ -179,20 +193,6 @@ export const cards: ICard[] = [
       {
         type: 'whatsapp',
         link: 'https://wa.me/972525124014',
-      },
-    ],
-  },
-  {
-    id: 'photo-magnets',
-    image: yarden,
-    socials: [
-      {
-        type: 'facebook',
-        link: 'https://www.facebook.com/MOR0509799709',
-      },
-      {
-        type: 'whatsapp',
-        link: 'https://wa.me/972542025123',
       },
     ],
   },
