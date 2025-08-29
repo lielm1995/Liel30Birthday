@@ -101,20 +101,6 @@ export const cards: ICard[] = [
     ],
   },
   {
-    id: 'towels',
-    image: towels,
-    socials: [
-      {
-        type: 'web',
-        link: 'https://rikmatex.com/',
-      },
-      {
-        type: 'whatsapp',
-        link: 'https://wa.me/972528859795',
-      },
-    ],
-  },
-  {
     id: 'photo-still',
     image: orDoga,
     socials: [
@@ -165,6 +151,20 @@ export const cards: ICard[] = [
       {
         type: 'whatsapp',
         link: 'https://wa.me/972509629030',
+      },
+    ],
+  },
+  {
+    id: 'towels',
+    image: towels,
+    socials: [
+      {
+        type: 'web',
+        link: 'https://rikmatex.com/',
+      },
+      {
+        type: 'whatsapp',
+        link: 'https://wa.me/972528859795',
       },
     ],
   },
