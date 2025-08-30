@@ -36,10 +36,17 @@ const FloatingPayButton = () => {
     toggleMenu();
   };
 
+  const commonActionStyles = {
+    width: '60px',
+    height: '60px',
+  };
+
   return (
     <FloatingActionButton
       mainButtonStyles={{
         backgroundColor: 'rgba(255, 255, 255, 0.95)',
+        width: '72px',
+        height: '72px',
       }}
       style={{
         bottom: spaceFromEdge,
@@ -51,10 +58,18 @@ const FloatingPayButton = () => {
       alwaysShowTitle={false}
       onClick={handleMainButtonClick}
     >
-      <Action onClick={handlePayboxOnClick} aria-hidden="false">
+      <Action
+        onClick={handlePayboxOnClick}
+        aria-hidden="false"
+        style={{ top: '-8px', ...commonActionStyles }}
+      >
         <PayboxSvg width="100%" height="100%" />
       </Action>
-      <Action onClick={handleBitOnClick} aria-hidden="false">
+      <Action
+        onClick={handleBitOnClick}
+        aria-hidden="false"
+        style={{ top: '-14px', ...commonActionStyles }}
+      >
         <BitSvg width="100%" height="100%" />
       </Action>
     </FloatingActionButton>

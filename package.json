@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "driver.js": "^1.3.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.5.2",

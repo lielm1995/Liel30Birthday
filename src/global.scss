@@ -26,6 +26,7 @@ $breakpoint-mobile: 481px;
   --primary-color: #131415;
   --secondary-color: #525661;
   --white: #ffffff;
+  --popover-background-color: rgba(0, 0, 0, 0.9);
 }
 
 // Global font settings
@@ -64,7 +65,29 @@ p {
   transform: none !important;
 }
 
-.rtf--mb__c {
-  margin: 0 !important;
-  padding: 0 !important;
+// Driver.js styles
+.driver-popover {
+  min-width: unset !important;
+  width: fit-content !important;
+  display: flex !important;
+  gap: 12px !important;
+  align-items: center !important;
+  background-color: var(--popover-background-color) !important;
+  color: white !important;
+}
+
+.driver-popover-close-btn {
+  position: static !important;
+  width: unset !important;
+  height: unset !important;
+  color: white !important;
+  margin-top: -2px !important;
+}
+
+.driver-popover-arrow {
+  border-color: var(--popover-background-color) !important;
+  border-right-color: transparent !important;
+  border-bottom-color: transparent !important;
+  border-top-color: transparent !important;
+  bottom: unset !important;
 }
