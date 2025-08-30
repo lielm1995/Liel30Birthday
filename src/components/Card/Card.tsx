@@ -9,7 +9,9 @@ interface CardProps {
   card: ICard;
 }
 
-function Card({ card: { id, image, socials = [] } }: CardProps) {
+function Card({
+  card: { id, image, socials = [], loading = 'lazy', fetchPriority },
+}: CardProps) {
   const { t } = useTranslation('card', {
     keyPrefix: 'cards',
   });
@@ -28,7 +30,13 @@ function Card({ card: { id, image, socials = [] } }: CardProps) {
 
   return (
     <div className={styles.card}>
-      {image && <img src={image} alt={title} className={styles.cardImage} />}
+      <img
+        src={image}
+        alt={title}
+        className={styles.cardImage}
+        loading={loading}
+        fetchPriority={fetchPriority}
+      />
       <div className={styles.cardContent}>
         <h2 className={styles.cardTitle}>{title}</h2>
         <div className={styles.cardDescriptionWrapper}>

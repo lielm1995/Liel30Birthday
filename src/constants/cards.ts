@@ -15,12 +15,16 @@ export interface ICard {
   id: string;
   image: string;
   socials: SocialLink[];
+  loading?: 'lazy' | 'eager';
+  fetchPriority?: 'high' | 'low';
 }
 
 export const cards: ICard[] = [
   {
     id: 'album',
     image: me,
+    loading: 'eager',
+    fetchPriority: 'high',
     socials: [
       {
         type: 'googlePhotos',
@@ -157,6 +161,8 @@ export const cards: ICard[] = [
   {
     id: 'towels',
     image: towels,
+    loading: 'eager',
+    fetchPriority: 'high',
     socials: [
       {
         type: 'web',
