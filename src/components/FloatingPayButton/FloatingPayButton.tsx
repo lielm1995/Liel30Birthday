@@ -44,7 +44,7 @@ const FloatingPayButton = () => {
   return (
     <FloatingActionButton
       mainButtonStyles={{
-        backgroundColor: 'rgba(255, 255, 255, 0.95)',
+        backgroundColor: '#f4d6de',
         width: '72px',
         height: '72px',
       }}
