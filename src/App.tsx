@@ -9,9 +9,9 @@ function App() {
   return (
     <div className={styles.app}>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/pay" element={<Home />} />
         <Route path="/admin" element={<Admin />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Navigate to="/pay" replace />} />
       </Routes>
     </div>
   );
