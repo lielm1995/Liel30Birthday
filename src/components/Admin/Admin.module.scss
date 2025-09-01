@@ -1,0 +1,16 @@
+@use '../../global.scss' as *;
+
+.admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+
+  div {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.15), 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+}

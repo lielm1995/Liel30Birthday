@@ -1,19 +1,17 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import './global.scss';
 import styles from './App.module.scss';
-import Card from './components/Card/Card';
-import { cards } from './constants/cards';
-import FloatingPayButton from './components/FloatingPayButton/FloatingPayButton';
+import Home from './components/Home/Home';
+import Admin from './components/Admin/Admin';
 
 function App() {
   return (
     <div className={styles.app}>
-      <h1 className={styles.title}>Liel's 30th Party</h1>
-      <div className={styles.cardsContainer}>
-        {cards.map((card) => (
-          <Card card={card} key={card.id} />
-        ))}
-      </div>
-      <FloatingPayButton />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/admin" element={<Admin />} />
+      </Routes>
     </div>
   );
 }

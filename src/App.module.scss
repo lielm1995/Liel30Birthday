@@ -4,7 +4,8 @@
   min-height: 100vh;
   padding: 16px;
   position: relative;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 
   &::before {
     content: '';
@@ -22,29 +23,5 @@
     @media (min-width: 1000px) {
       background-position: unset;
     }
-  }
-}
-
-.title {
-  text-align: center;
-  line-height: 1;
-  color: var(--white);
-  margin-block: 28px 32px;
-  font-size: clamp(24px, 12vw, 64px);
-  font-weight: bold;
-  text-shadow: 0 0 6px rgba(0, 0, 0, 0.15), 0 0 8px rgba(0, 0, 0, 0.1);
-}
-
-.cardsContainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 16px;
-  margin: 0 auto;
-  max-width: 1240px;
-}
-
-@media (min-width: $breakpoint-mobile) {
-  .cardsContainer {
-    grid-auto-rows: 1fr;
   }
 }
