@@ -1,19 +1,21 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { Fab as FloatingActionButton, Action } from 'react-tiny-fab';
 import { BitSvg, PayboxSvg } from '../../assets/svgs/Svgs';
 import BouncingPiggyBank from '../BouncingPiggyBank/BouncingPiggyBank';
 import { useIsMobile } from '../../hooks/useIsMobile';
 import { closeMenu, toggleMenu } from './floating-button-helper';
 
-const FloatingPayButton = () => {
+interface FloatingPayButtonProps {
+  isAnimationEnabled: boolean;
+  setIsAnimationEnabled: (enabled: boolean) => void;
+}
+
+const FloatingPayButton = ({
+  isAnimationEnabled,
+  setIsAnimationEnabled,
+}: FloatingPayButtonProps) => {
   const isMobile = useIsMobile();
   const spaceFromEdge = isMobile ? 10 : 20;
-
-  // Initialize animation state from localStorage
-  const [isAnimationEnabled, setIsAnimationEnabled] = useState(() => {
-    const storedValue = localStorage.getItem('payButtonSeen');
-    return storedValue !== 'clicked'; // Animation enabled if not clicked before
-  });
 
   useEffect(() => {
     window.addEventListener('scroll', closeMenu);
