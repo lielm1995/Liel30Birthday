@@ -8,6 +8,7 @@
   font-size: clamp(24px, 12vw, 64px);
   font-weight: bold;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.15), 0 0 8px rgba(0, 0, 0, 0.1);
+  user-select: none;
 }
 
 .cardsContainer {
