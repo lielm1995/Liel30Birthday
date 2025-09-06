@@ -14,7 +14,6 @@ function Home() {
 
   const enableAnimationOnDoubleTap = useDoubleTap((event) => {
     event.preventDefault();
-    event.stopPropagation();
     localStorage.removeItem('payButtonSeen');
     setIsAnimationEnabled(true);
   });
