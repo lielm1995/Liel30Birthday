@@ -25,7 +25,7 @@ const FloatingPayButton = ({
   }, []);
 
   const handlePayboxOnClick = () => {
-    console.log('Paybox');
+    window.open('https://links.payboxapp.com/q8ZHcIRnzWb', '_blank');
   };
 
   const handleBitOnClick = () => {
