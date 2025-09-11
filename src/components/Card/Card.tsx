@@ -28,8 +28,22 @@ function Card({
     }
   }
 
+  // Find Instagram link first, otherwise use the first social link
+  const getCardLink = () => {
+    const mainSocial =
+      socials.find((social) => social.type === 'instagram') || socials[0];
+    return mainSocial.link;
+  };
+
+  const cardLink = getCardLink();
+
   return (
-    <div className={styles.card}>
+    <a
+      href={cardLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles.card}
+    >
       <img
         src={image}
         alt={title}
@@ -44,7 +58,7 @@ function Card({
         </div>
         <SocialIcons socials={socials} />
       </div>
-    </div>
+    </a>
   );
 }
 
