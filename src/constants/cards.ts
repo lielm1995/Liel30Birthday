@@ -8,6 +8,7 @@ import orDoga from '../assets/OrDogaLogo.jpg';
 import koiCocktails from '../assets/KoiCocktails.jpg';
 import jahnunGivaa from '../assets/jahnunGivaa.jpg';
 import cake from '../assets/cake.jpg';
+import amit from '../assets/Amit.jpg';
 import towels from '../assets/towels.png';
 import type { SocialLink } from '../types/social';
 
@@ -199,6 +200,24 @@ export const cards: ICard[] = [
       {
         type: 'whatsapp',
         link: 'https://wa.me/972525124014',
+      },
+    ],
+  },
+  {
+    id: 'amit',
+    image: amit,
+    socials: [
+      {
+        type: 'instagram',
+        link: 'https://www.instagram.com/amit7itz/',
+      },
+      {
+        type: 'facebook',
+        link: 'https://www.facebook.com/amit.itzkovitch',
+      },
+      {
+        type: 'whatsapp',
+        link: 'https://wa.me/972548053331',
       },
     ],
   },
