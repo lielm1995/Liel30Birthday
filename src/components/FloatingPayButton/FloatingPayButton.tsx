@@ -29,7 +29,10 @@ const FloatingPayButton = ({
   };
 
   const handleBitOnClick = () => {
-    console.log('Bit');
+    window.open(
+      'https://www.bitpay.co.il/app/share-info?i=190503691305_19ksSAL3',
+      '_blank'
+    );
   };
 
   const handleMainButtonClick = () => {
